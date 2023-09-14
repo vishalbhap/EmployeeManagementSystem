@@ -23,6 +23,8 @@ public class Employee {
 		
 	}
 	
+	
+	// Parameterized constructor
 	public Employee(String firstName, String lastName, String emailId) {
 		super();
 		this.firstName = firstName;
