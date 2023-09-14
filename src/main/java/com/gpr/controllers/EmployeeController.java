@@ -1,4 +1,4 @@
-package com.gpr.apps;
+package com.gpr.controllers;
 
 import java.util.HashMap;
 import java.util.List;
@@ -15,6 +15,10 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.gpr.exeptions.ResourceNotFoundException;
+import com.gpr.models.Employee;
+import com.gpr.repositories.EmployeeRepository;
 
 
 

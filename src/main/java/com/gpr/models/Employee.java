@@ -1,4 +1,4 @@
-package com.gpr.apps;
+package com.gpr.models;
 
 import jakarta.persistence.*;
 

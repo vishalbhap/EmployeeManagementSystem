@@ -1,4 +1,4 @@
-package com.gpr.apps;
+package com.gpr.exeptions;
 
 
 import org.springframework.http.HttpStatus;
