@@ -30,6 +30,12 @@ public class EmployeeController {
 	@Autowired
 	private EmployeeRepository employeeRepository;
 	
+	// Demo API check
+	@GetMapping("/")
+	public String welcome(){
+		return "Welcome Vishal";
+	}
+	
 
 	// get all employees
 	@GetMapping("/employees")
